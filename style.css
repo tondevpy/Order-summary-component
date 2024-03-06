@@ -1,0 +1,87 @@
+body {
+  background: #e0e7ff url('./images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content {
+  width: 450px;
+  background: #fff;
+  border-radius: 20px;
+}
+header {
+  height: 220px;
+  background: url('./images/illustration-hero.svg');
+  border-radius: 20px 20px 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 28px;
+  color: #1F2E55;
+}
+p {
+  text-align: center;
+  color: #717FA6;
+  font-size: 16px;
+  align-items: center;
+}
+.plan {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.plan-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #F7F9FF;
+  border-radius: 11px;
+  padding: 10px;
+}
+.info span{
+  display: block;
+  color: #717FA6;
+}
+a {
+  margin-left: 50px;
+  color: #766CF1;
+  font-size: 14px;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+.button {
+  margin-top: 32px;
+  text-align: center;
+  padding: 20px;
+}
+.proceed {
+  background: #766CF1;
+  color: #F7F9FF;
+  border-radius: 11px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cancel {
+  margin-top: 32px;
+  text-align: center;
+  font-weight: bold;
+  color: #1F2E55;
+  cursor: pointer;
+  padding: 20px;
+}
